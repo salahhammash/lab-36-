@@ -6,12 +6,16 @@ class Solution(object):
         """
         current = head
         length=0
+        
         while current :
             length +=1
             current = current.next
 
-        midel_index = length // 2
+        mid = length // 2
         new_head = head
-        for i in range(midel_index):
+         # count = 0
+        for i in range(mid):
+        # while count != midel_index:
+            # count +=1
             new_head = new_head.next
         return new_head    
