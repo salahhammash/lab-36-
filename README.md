@@ -28,7 +28,6 @@
 
 ---  
 
-## left_join method
 ## O(n) Time performance 
 ## O(n) Space performance 
 
@@ -70,7 +69,7 @@ class Solution(object):
             sec.next = node
             node = sec
             sec = n
-            
+
         # Comparing the First and the Second Half
         while node:
             if node.val != head.val:
